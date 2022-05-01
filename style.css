@@ -101,6 +101,8 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
 }
 
 .d-bloc button:hover {
@@ -438,6 +440,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    background-color: #F3976C;
 }
 
 .mg-lg {
@@ -476,7 +479,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 50px!important;
 }
 
 .icon-lg {
@@ -735,9 +738,6 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
@@ -789,7 +789,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black;
 }
 
 .ltc-white:hover {

@@ -2069,6 +2069,10 @@ pre code {
     padding-left: 15px
 }
 
+.col-sm-12{
+    background-color: #F3976C;
+}
+
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
