@@ -415,6 +415,9 @@ nav .caret {
     margin: 0 5px;
 }
 
+img{
+    width: 100%;
+}
 .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
@@ -1044,9 +1047,11 @@ h4 {
 déjà fait:
 - changé le format d'image en webp
 -mis .texture-paper en commentaire
+-ajouté une meta description (à vérifier) et balise canonical (à vérifier)
  
 reste à faire:
 -importer le nouveau fichier bootstrap par cdnjs (la version est ancienne et n'est pas dsponible sur cdnjs)
 -voir si on doit changer les images (texte) ou pas
 -enlever le style dans le code html et le mettre dans la feuille css
 -mettre des éléments dans un ordre séquentielle décroissant
+*/
