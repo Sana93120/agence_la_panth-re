@@ -3,7 +3,6 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -54,6 +53,10 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+.center-block{
+    width: 30%;
 }
 
 .bg-center,
@@ -364,6 +367,23 @@ a:hover {
     z-index: 2;
 }
 
+.col-sm-121{
+    background-color: white;
+}
+
+.col-sm-123{
+    background-color: #F3976C;
+}
+
+.row00{
+    background-color: #F3976C;
+}
+
+.italic{
+    font-style: italic;
+    font-size: 25px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -415,9 +435,6 @@ nav .caret {
     margin: 0 5px;
 }
 
-img{
-    width: 100%;
-}
 .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
@@ -702,6 +719,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    background-color: black;
 }
 
 .social {
@@ -780,10 +798,7 @@ h4 {
     color: black!important;
 }
 
-.btn-atomic-tangerine {
-    background: white;
-    color: black!important;
-}
+
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
@@ -850,34 +865,22 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
 @media (max-width: 991px) {
+    
     .container {
         width: 100%;
     }
+
     .b-parallax {
         background-attachment: scroll;
     }
+
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -886,8 +889,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1042,16 +1043,3 @@ h4 {
         text-align: center;
     }
 }
-
-/* 
-déjà fait:
-- changé le format d'image en webp
--mis .texture-paper en commentaire
--ajouté une meta description (à vérifier) et balise canonical (à vérifier)
- 
-reste à faire:
--importer le nouveau fichier bootstrap par cdnjs (la version est ancienne et n'est pas dsponible sur cdnjs)
--voir si on doit changer les images (texte) ou pas
--enlever le style dans le code html et le mettre dans la feuille css
--mettre des éléments dans un ordre séquentielle décroissant
-*/
