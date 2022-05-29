@@ -290,6 +290,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background-color: #F3976C;
 }
 
 .navbar {
@@ -369,10 +370,6 @@ a:hover {
 
 .col-sm-121{
     background-color: white;
-}
-
-.col-sm-123{
-    background-color: #F3976C;
 }
 
 .row00{
