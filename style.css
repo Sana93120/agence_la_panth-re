@@ -385,6 +385,7 @@ a:hover {
     width: 100%;
 }
 
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -674,7 +675,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /*color: #575757!important;*/
+    color: #000000;
 }
 
 .container {
